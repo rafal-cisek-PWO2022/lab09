@@ -12,5 +12,13 @@ public class _run {
                 .setFileName("txtpic2.txt")
                 .createTxtPic()
                 .save();
+        TxtPic3 txtPic3 = new TxtPic3();
+        txtPic3
+                .setBackground('_')
+                .setForeground('*')
+                .setSize(20)
+                .setFileName("txtpic2.txt")
+                .createTxtPic()
+                .save();
     }
 }
