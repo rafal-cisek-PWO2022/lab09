@@ -3,6 +3,7 @@ package pwo.lab09.composite;
 public class _run {
     public static void main(String[] args) {
         WaterSystem waterSystem = new WaterSystem();
+        waterSystem.addComponent(new Cover());
         waterSystem.addComponent(new Tank());
         waterSystem.addComponent(new Tap());
         System.out.println("Napełnienie:");
